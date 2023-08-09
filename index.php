@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
+  <title>test</title>
   <?php include "includes/cssjs.php";
   echo $cssjs; ?>
   <script type="text/javascript" src="http://slimnfit.lk/js/index.js"></script>
