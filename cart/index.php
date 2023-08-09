@@ -16,10 +16,10 @@
   <script>
  
   </script>
-  <script type="text/javascript" src="http://cheer.lk/js/cart.js"></script>
-  <script type="text/javascript" src="http://cheer.lk/js/cart.triggers.js"></script>
-  <script type="text/javascript" src="http://cheer.lk/js/sign-up.js"></script>
-  <script type="text/javascript" src="http://cheer.lk/js/sign-up.triggers.js"></script>
+  <script type="text/javascript" src="https://cheer.lk/js/cart.js"></script>
+  <script type="text/javascript" src="https://cheer.lk/js/cart.triggers.js"></script>
+  <script type="text/javascript" src="https://cheer.lk/js/sign-up.js"></script>
+  <script type="text/javascript" src="https://cheer.lk/js/sign-up.triggers.js"></script>
   <script>
     $(document).ready(function () { 
         if('<?php if(isset($_GET[md5('platform')])){echo($_GET[md5('platform')]);}?>' == '<?php echo(md5('cart'));?>'){
@@ -62,7 +62,7 @@
           <!-- Right -->
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="<?php if(isset($_GET[md5('platform')])){ if ($_GET[md5('platform')] == md5('buynow')){echo "http://cheer.lk/cart/?34a6e5d64ade17ef4e51612c50dd72f5=54013ba69c196820e56801f1ef5aad54"; }}?>              
+              <a href="<?php if(isset($_GET[md5('platform')])){ if ($_GET[md5('platform')] == md5('buynow')){echo "https://cheer.lk/cart/?34a6e5d64ade17ef4e51612c50dd72f5=54013ba69c196820e56801f1ef5aad54"; }}?>              
               " class="nav-link navbar-link-2 waves-effect">
                 <span class="badge badge-pill red">0</span>
                 <i class="fas fa-shopping-cart pl-0"></i>
@@ -107,7 +107,7 @@
     </nav>
     <!-- Navbar -->
     <div class="jumbotron jumbotron-image color-grey-light"
-      style="background-image: url('http://cheer.lk/img/carousel/webimage.jpeg'); height: 200px;">
+      style="background-image: url('https://cheer.lk/img/carousel/webimage.jpeg'); height: 200px;">
       <div class="mask rgba-black-strong d-flex align-items-center h-100">
         <div class="container text-center white-text py-5">
           <h1 class="mb-0">Shopping cart</h1>

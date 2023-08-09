@@ -9,9 +9,9 @@
   <title>test</title>
   <?php include "includes/cssjs.php";
   echo $cssjs; ?>
-  <script type="text/javascript" src="http://cheer.lk/js/index.js"></script>
-  <script type="text/javascript" src="http://cheer.lk/js/crypto.js"></script>
-  <script type="text/javascript" src="http://cheer.lk/js/index.triggers.js"></script>
+  <script type="text/javascript" src="https://cheer.lk/js/index.js"></script>
+  <script type="text/javascript" src="https://cheer.lk/js/crypto.js"></script>
+  <script type="text/javascript" src="https://cheer.lk/js/index.triggers.js"></script>
   <script>
     $(document).ready(function() {
       fillSideNavOrg();
@@ -23,7 +23,7 @@
 
 <body class="skin-light">
   <div class="pageloader justify-content-center align-items-center">
-    <img class="animation__wobble" src="http://cheer.lk/img/logo/slimnfit.png" alt="AdminLTELogo" height="60" width="60">
+    <img class="animation__wobble" src="https://cheer.lk/img/logo/slimnfit.png" alt="AdminLTELogo" height="60" width="60">
   </div>
 
   <!--Main Navigation-->
@@ -35,7 +35,7 @@
       <div class="container-fluid">
 
         <!-- Brand -->
-        <a class="navbar-brand" href="http://cheer.lk/">
+        <a class="navbar-brand" href="https://cheer.lk/">
           <span class="icon">SNF</span>
         </a>
 
@@ -49,7 +49,7 @@
           <!-- Right -->
           <ul class="navbar-nav ml-auto snavcontul">
             <li class="nav-item">
-              <a href="http://cheer.lk/cart/?34a6e5d64ade17ef4e51612c50dd72f5=54013ba69c196820e56801f1ef5aad54" class="nav-link navbar-link-2 waves-effect">
+              <a href="https://cheer.lk/cart/?34a6e5d64ade17ef4e51612c50dd72f5=54013ba69c196820e56801f1ef5aad54" class="nav-link navbar-link-2 waves-effect">
                 <span class="badge badge-pill red">0</span>
                 <i class="fas fa-shopping-cart pl-0"></i>
               </a>
@@ -83,7 +83,7 @@
               <?php if (isset($_SESSION['usrname'])) {
                 echo ("<a href='#!' type='button' class='btn btn-outline-info btn-md btn-rounded btn-navbar waves-effect waves-light'>" . $_SESSION['usrname'] . "</a>");
               } else {
-                echo ("<a href='http://cheer.lk/sign-in' type='button' class='btn btn-outline-info btn-md btn-rounded btn-navbar waves-effect waves-light'>Sign in</a>");
+                echo ("<a href='https://cheer.lk/sign-in' type='button' class='btn btn-outline-info btn-md btn-rounded btn-navbar waves-effect waves-light'>Sign in</a>");
               } ?>
             </li>
           </ul>
@@ -95,10 +95,10 @@
     </nav>
     <!-- Navbar -->
 
-    <div class="jumbotron jumbotron-image color-grey-light" style="background-image: url('http://cheer.lk/img/carousel/webimage.jpeg'); height: 400px;">
+    <div class="jumbotron jumbotron-image color-grey-light" style="background-image: url('https://cheer.lk/img/carousel/webimage.jpeg'); height: 400px;">
       <div class="mask rgba-black-strong d-flex align-items-center h-100">
         <div class="container text-center white-text py-5">
-          <img class="img-fluid " src="http://cheer.lk/img/logo/slimnfit.png" id="centerimg">
+          <img class="img-fluid " src="https://cheer.lk/img/logo/slimnfit.png" id="centerimg">
         </div>
       </div>
     </div>

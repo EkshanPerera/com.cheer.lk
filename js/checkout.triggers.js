@@ -10,7 +10,7 @@ $(document).on("click","#checkout",function(){
             placeorder(orderID,2,function(output){
                 if(output == "SUCCESS"){
                     clearlocalstorage(section);
-                    window.location.href = "http://cheer.lk/myprofile";
+                    window.location.href = "https://cheer.lk/myprofile";
                 }
             });
         }

@@ -19,7 +19,7 @@ function load(usrid) {
             break;
     }
     $.ajax({
-        url: "http://cheer.lk/Service/user.bakend.php",
+        url: "https://cheer.lk/Service/user.bakend.php",
         method: "post",
         dataType: "json",
         data: { 'operation': 'load', 'usrid': usrid },
@@ -65,7 +65,7 @@ function addaddress(usrid){
     var addressline04 = $("#form172").val(data.RESULT[0].addressline04);
     var postalcode    = $("#form182").val(data.RESULT[0].postalcode);
     $.ajax({
-        url:'http://cheer.lk/Service/user.bakend.php',
+        url:'https://cheer.lk/Service/user.bakend.php',
         method:'post',
         dataType:'json',
         data:{'operation':'addadress','usrid':usrid,'addressline01':addressline01,'addressline02':addressline02,'addressline03':addressline03,'addressline04':addressline04,'postalcode':postalcode},
@@ -76,7 +76,7 @@ function addaddress(usrid){
 }
 function showaddress(usrid){
     $.ajax({
-        url:'http://cheer.lk/Service/user.bakend.php',
+        url:'https://cheer.lk/Service/user.bakend.php',
         method:'post',
         dataType:'json',
         data:{'operation': 'showaddress', 'usrid': usrid },

@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (isset($_SESSION["usrname"])) {
-  header('Location: http://cheer.lk');
+  header('Location: https://cheer.lk');
 }
 ?>
 <!DOCTYPE html>
@@ -14,8 +14,8 @@ if (isset($_SESSION["usrname"])) {
   <title>Material Design Bootstrap</title>
   <?php include "../includes/cssjs.php";
   echo $cssjs; ?>
-  <script type="text/javascript" src="http://cheer.lk/js/sign-in.triggers.js"></script>
-  <script type="text/javascript" src="http://cheer.lk/js/sign-in.js"></script>
+  <script type="text/javascript" src="https://cheer.lk/js/sign-in.triggers.js"></script>
+  <script type="text/javascript" src="https://cheer.lk/js/sign-in.js"></script>
 
 </head>
 
@@ -29,7 +29,7 @@ if (isset($_SESSION["usrname"])) {
       <div class="container-fluid">
 
         <!-- Brand -->
-        <a class="navbar-brand" href="http://cheer.lk/">
+        <a class="navbar-brand" href="https://cheer.lk/">
           <span class="icon">SNF</span>
         </a>
 
@@ -137,7 +137,7 @@ if (isset($_SESSION["usrname"])) {
 
                 <button type="submit" class="btn btn-primary mb-4" id="btnsignin">Sign in</button>
             </form>
-            <p>Not a member? <a href="http://cheer.lk/sign-up">Register</a></p>
+            <p>Not a member? <a href="https://cheer.lk/sign-up">Register</a></p>
 
             <p>or sign in with:</p>
 
