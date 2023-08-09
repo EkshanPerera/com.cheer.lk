@@ -8,8 +8,8 @@
   <title>Material Design Bootstrap</title>
   <?php include "../includes/cssjs.php";
   echo $cssjs; ?>
-  <script type="text/javascript" src="http://slimnfit.lk/js/product.js"></script>
-  <script type="text/javascript" src="http://slimnfit.lk/js/product.trigger.js"></script>
+  <script type="text/javascript" src="http://cheer.lk/js/product.js"></script>
+  <script type="text/javascript" src="http://cheer.lk/js/product.trigger.js"></script>
 
   <script>
     $(document).ready(function() {
@@ -21,7 +21,7 @@
 
 <body class="skin-light">
   <div class="pageloader justify-content-center align-items-center">
-    <img class="animation__wobble" src="http://slimnfit.lk/img/logo/slimnfit.png" alt="AdminLTELogo" height="60" width="60">
+    <img class="animation__wobble" src="http://cheer.lk/img/logo/slimnfit.png" alt="AdminLTELogo" height="60" width="60">
   </div>
   <!--Main Navigation-->
   <header>
@@ -30,7 +30,7 @@
       <div class="container-fluid">
 
         <!-- Brand -->
-        <a class="navbar-brand" href="http://slimnfit.lk/">
+        <a class="navbar-brand" href="http://cheer.lk/">
           <span class="icon">SNF</span>
         </a>
 
@@ -44,7 +44,7 @@
           <!-- Right -->
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="http://slimnfit.lk/cart/?34a6e5d64ade17ef4e51612c50dd72f5=54013ba69c196820e56801f1ef5aad54" class="nav-link navbar-link-2 waves-effect">
+              <a href="http://cheer.lk/cart/?34a6e5d64ade17ef4e51612c50dd72f5=54013ba69c196820e56801f1ef5aad54" class="nav-link navbar-link-2 waves-effect">
                 <span class="badge badge-pill red">0</span>
                 <i class="fas fa-shopping-cart pl-0"></i>
               </a>
@@ -86,7 +86,7 @@
     </nav>
     <!-- Navbar -->
 
-    <div class="jumbotron jumbotron-image color-grey-light" style="background-image: url('http://slimnfit.lk/img/carousel/webimage.jpeg'); height: 200px;">
+    <div class="jumbotron jumbotron-image color-grey-light" style="background-image: url('http://cheer.lk/img/carousel/webimage.jpeg'); height: 200px;">
       <div class="mask rgba-black-strong d-flex align-items-center h-100">
         <div class="container text-center white-text py-5">
           <h1 class="mb-0">Product page</h1>
@@ -478,7 +478,7 @@
             </div>
             <!--Footer-->
             <div class="modal-footer justify-content-center">
-              <a type="button" class="btn btn-success waves-effect waves-light" href="http://slimnfit.lk/cart/?34a6e5d64ade17ef4e51612c50dd72f5=54013ba69c196820e56801f1ef5aad54">Go to cart
+              <a type="button" class="btn btn-success waves-effect waves-light" href="http://cheer.lk/cart/?34a6e5d64ade17ef4e51612c50dd72f5=54013ba69c196820e56801f1ef5aad54">Go to cart
                 <i class="far fa-gem ml-1 text-white"></i>
               </a>
               <a type="button" class="btn btn-outline-success waves-effect" data-dismiss="modal">Continue shoping</a>

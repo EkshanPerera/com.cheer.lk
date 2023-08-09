@@ -1,6 +1,6 @@
 function loadusr(usrid) {
     $.ajax({
-        url: "http://slimnfit.lk/Service/user.bakend.php",
+        url: "http://cheer.lk/Service/user.bakend.php",
         method: "post",
         dataType: "json",
         data: { 'operation': 'load', 'usrid': usrid },
@@ -13,7 +13,7 @@ function loadusr(usrid) {
 function loadordes(usrid) {
     var resultset = "";
     $.ajax({
-        url: "http://slimnfit.lk/Service/user.bakend.php",
+        url: "http://cheer.lk/Service/user.bakend.php",
         method: "post",
         dataType: "json",
         data: { 'operation': 'loadorders', 'usrid': usrid },
@@ -54,7 +54,7 @@ function loadordes(usrid) {
 function showproducts(usrid, trackingno) {
     var resultset = "<hr class=\"mb-4\"></hr>";
     $.ajax({
-        url: "http://slimnfit.lk/Service/user.bakend.php",
+        url: "http://cheer.lk/Service/user.bakend.php",
         method: "post",
         dataType: "json",
         data: { 'operation': 'showproducts', 'usrid': usrid, 'trackingno': trackingno },

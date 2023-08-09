@@ -1,11 +1,11 @@
 <?php
 session_start();
 if (!isset($_SESSION["usrname"])) {
-  header('Location: http://slimnfit.lk');
+  header('Location: http://cheer.lk');
 }
 $_SESSION["section"] = $_POST['detaset']['section'];
 if (isset($_SESSION["ordering"]) && !isset($_SESSION['orderprosessed'])) {
-  header('Location: http://slimnfit.lk/cart/?34a6e5d64ade17ef4e51612c50dd72f5=9b24bfb7d238ca1de5650f754e3f84de');
+  header('Location: http://cheer.lk/cart/?34a6e5d64ade17ef4e51612c50dd72f5=9b24bfb7d238ca1de5650f754e3f84de');
 }
 ?>
 <!DOCTYPE html>
@@ -18,8 +18,8 @@ if (isset($_SESSION["ordering"]) && !isset($_SESSION['orderprosessed'])) {
   <title>Material Design Bootstrap</title>
   <?php include "../includes/cssjs.php";
   echo $cssjs; ?>
-  <script type="text/javascript" src="http://slimnfit.lk/js/checkout.js"></script>
-  <script type="text/javascript" src="http://slimnfit.lk/js/checkout.triggers.js"></script>
+  <script type="text/javascript" src="http://cheer.lk/js/checkout.js"></script>
+  <script type="text/javascript" src="http://cheer.lk/js/checkout.triggers.js"></script>
   <script type="text/javascript" src="https://www.payhere.lk/lib/payhere.js"></script>
   <script>
     const dataset = <?php echo json_encode($_POST['detaset']); ?>;
@@ -45,7 +45,7 @@ if (isset($_SESSION["ordering"]) && !isset($_SESSION['orderprosessed'])) {
       var addressline04 = $("#form17").val();
       var postalcode = $("#form18").val();
       $.ajax({
-        url: 'http://slimnfit.lk/Service/site.services.php',
+        url: 'http://cheer.lk/Service/site.services.php',
         method: 'post',
         dataType: 'json',
         data: {
@@ -71,7 +71,7 @@ if (isset($_SESSION["ordering"]) && !isset($_SESSION['orderprosessed'])) {
 
     function deleteorder(orderID) {
       $.ajax({
-        url: 'http://slimnfit.lk/Service/site.services.php',
+        url: 'http://cheer.lk/Service/site.services.php',
         method: 'post',
         dataType: 'json',
         data: {
@@ -106,7 +106,7 @@ if (isset($_SESSION["ordering"]) && !isset($_SESSION['orderprosessed'])) {
       "merchant_id": "121XXXX", // Replace your Merchant ID
       "return_url": undefined, // Important
       "cancel_url": undefined, // Important
-      "notify_url": "http://slimnfit.lk/service/notify.php",
+      "notify_url": "http://cheer.lk/service/notify.php",
       "order_id": orderID,
       "items": items,
       "amount": dataset.common.totprice,

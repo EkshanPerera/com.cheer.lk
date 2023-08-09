@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (isset($_SESSION["usrname"])) {
-  header('Location: http://slimnfit.lk');
+  header('Location: http://cheer.lk');
 }
 ?>
 <!DOCTYPE html>
@@ -14,8 +14,8 @@ if (isset($_SESSION["usrname"])) {
   <title>Material Design Bootstrap</title>
   <?php include "../includes/cssjs.php";
   echo $cssjs; ?>
-  <script type="text/javascript" src="http://slimnfit.lk/js/sign-up.triggers.js"></script>
-  <script type="text/javascript" src="http://slimnfit.lk/js/sign-up.js"></script>
+  <script type="text/javascript" src="http://cheer.lk/js/sign-up.triggers.js"></script>
+  <script type="text/javascript" src="http://cheer.lk/js/sign-up.js"></script>
   <script>
     $(document).ready(function() {
       load();
@@ -33,7 +33,7 @@ if (isset($_SESSION["usrname"])) {
       <div class="container-fluid">
 
         <!-- Brand -->
-        <a class="navbar-brand" href="http://slimnfit.lk/">
+        <a class="navbar-brand" href="http://cheer.lk/">
           <span class="icon">SNF</span>
         </a>
 

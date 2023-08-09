@@ -8,7 +8,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Material Design Bootstrap</title>
   <?php include "../includes/cssjs.php"; echo $cssjs;?>
-  <script type="text/javascript" src="http://slimnfit.lk/js/product.js"></script>
+  <script type="text/javascript" src="http://cheer.lk/js/product.js"></script>
 
   <script>
     $(document).ready(function () {
@@ -89,7 +89,7 @@
     </nav>
     <!-- Navbar -->
     <div class="jumbotron jumbotron-image color-grey-light"
-      style="background-image: url('http://slimnfit.lk/img/carousel/webimage.jpeg'); height: 200px;">
+      style="background-image: url('http://cheer.lk/img/carousel/webimage.jpeg'); height: 200px;">
       <div class="mask rgba-black-strong d-flex align-items-center h-100">
         <div class="container text-center white-text py-5">
           <h1 class="mb-0">Product page</h1>

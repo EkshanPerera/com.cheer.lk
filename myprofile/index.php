@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (isset($_SESSION["usrname"])) {
-  // header('Location: http://slimnfit.lk');
+  // header('Location: http://cheer.lk');
 }
 if (isset($_SESSION["ordering"])) {
   unset($_SESSION["orderprosessed"]);
@@ -17,8 +17,8 @@ if (isset($_SESSION["ordering"])) {
   <title>Material Design Bootstrap</title>
   <?php include "../includes/cssjs.php";
   echo $cssjs; ?>
-  <script type="text/javascript" src="http://slimnfit.lk/js/profile.triggers.js"></script>
-  <script type="text/javascript" src="http://slimnfit.lk/js/profile.js"></script>
+  <script type="text/javascript" src="http://cheer.lk/js/profile.triggers.js"></script>
+  <script type="text/javascript" src="http://cheer.lk/js/profile.js"></script>
   <script type="text/javascript">
     loadusr(<?php echo $_SESSION['usrid']; ?>);
     loadordes(<?php echo $_SESSION['usrid']; ?>);
@@ -37,7 +37,7 @@ if (isset($_SESSION["ordering"])) {
       <div class="container-fluid">
 
         <!-- Brand -->
-        <a class="navbar-brand" href="http://slimnfit.lk/">
+        <a class="navbar-brand" href="http://cheer.lk/">
           <span class="icon">SNF</span>
         </a>
 
@@ -51,7 +51,7 @@ if (isset($_SESSION["ordering"])) {
           <!-- Right -->
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="http://slimnfit.lk/cart/?34a6e5d64ade17ef4e51612c50dd72f5=54013ba69c196820e56801f1ef5aad54" class="nav-link navbar-link-2 waves-effect">
+              <a href="http://cheer.lk/cart/?34a6e5d64ade17ef4e51612c50dd72f5=54013ba69c196820e56801f1ef5aad54" class="nav-link navbar-link-2 waves-effect">
                 <span class="badge badge-pill red">0</span>
                 <i class="fas fa-shopping-cart pl-0"></i>
               </a>
@@ -93,7 +93,7 @@ if (isset($_SESSION["ordering"])) {
     </nav>
     <!-- Navbar -->
 
-    <div class="jumbotron jumbotron-image color-grey-light" style="background-image: url('http://slimnfit.lk/img/carousel/webimage.jpeg'); height: 200px;">
+    <div class="jumbotron jumbotron-image color-grey-light" style="background-image: url('http://cheer.lk/img/carousel/webimage.jpeg'); height: 200px;">
       <div class="mask rgba-black-strong d-flex align-items-center h-100">
         <div class="container text-center white-text py-5">
           <h1 class="mb-0">Product page</h1>

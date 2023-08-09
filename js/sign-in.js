@@ -13,7 +13,7 @@ $(document).on("click", "#btnsignin", function () {
             success: function (data) {
                 if (data.RESULT == "SUCCESS") {
                     if (document.referrer == "") {
-                        window.location.href = "http://slimnfit.lk";
+                        window.location.href = "http://cheer.lk";
                     } else {
                         window.history.back();
                     }

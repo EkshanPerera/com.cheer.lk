@@ -41,7 +41,7 @@ if($section == "sign-up"){
             $last_id = mysqli_insert_id($conn);
             $sql  = "INSERT INTO telephone(userid,value,def,status) VALUES ('".$last_id."','".$tpno."','Y','A')";
             if(mysqli_query($conn,$sql)){
-                header("Location: http://slimnfit.lk/sign-in");
+                header("Location: http://cheer.lk/sign-in");
             }else{
                 echo("<script type='text/javascript'>window.history.back()</script>");
             } 
